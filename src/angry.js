@@ -5,7 +5,6 @@ setBackground('assets/angry/bg.png');
 var density = 1;
 var friction = 100;
 var restitution = 0.4;
-
 var cWidth = 800;
 var cHeight = 600;
 
