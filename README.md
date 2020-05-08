@@ -4,6 +4,9 @@ What is it??
 Giftwrap is a thin wrapper or API for Box2D and CSS, to allow new programmers to produce a web
 game with minimal coding skills using JavaScript.
 
+Examples of games can be found in src/
+The Library itself is in src/scritps, along with dependencies (box2d and jquery)
+
 This work was inspired by the teaching of Dr Russell Hunter of Perth College UHI whose 4th year
 Web Programming module was awesome!
 
