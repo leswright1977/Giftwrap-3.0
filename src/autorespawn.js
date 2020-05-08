@@ -2,6 +2,7 @@
 gravity(0,9.8);
 setBackground('assets/grid.png');
 
+
 var density = 100;
 var friction = 10;
 var restitution = 0.4;
