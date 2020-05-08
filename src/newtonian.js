@@ -1,6 +1,5 @@
 //set up the world real quick!...
 gravity(0,0);
-//setBackground('assets/grid.png');
 
 var density = 0;
 var friction = 0;
