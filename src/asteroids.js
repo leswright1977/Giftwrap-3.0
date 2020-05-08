@@ -1,6 +1,7 @@
 //set up the world real quick!...
 gravity(0,0);
 
+
 var density = 1;
 var friction = 0.0;
 var restitution = 1;
