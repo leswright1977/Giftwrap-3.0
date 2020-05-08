@@ -1,6 +1,6 @@
 //set up the world real quick!...
 gravity(0,9.8);
-setBackground('assets/grid.png');
+setBackground('assets/misc/grid.png');
 
 
 var density = 100;
