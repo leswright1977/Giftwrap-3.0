@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Giftwrap 2.2-css-alpha</title>
+	  <style>
+	  
+		#score{
+			margin-left: auto;
+			margin-right: auto;
+			width: 500px;
+			height: 40px;
+			line-height:40px;
+			text-align: center;
+			background: black;
+			color: yellow;
+			border: 1px solid black;
+		}
+
+		#box2dCanvas{
+			position: absolute;
+			top:50px;
+			left:0px;
+			background-color: black;
+		}
+
+		#canvas {
+			margin-left: auto;
+			margin-right: auto;
+			/* prevent stuff happening with z*/
+			-webkit-transform: translateZ(0);
+			-o-transform: translateZ(0);
+			-moz-transform: translateZ(0);
+			-ms-transform: translateZ(0);
+			transform: translateZ(0);
+			background-color:lightblue;
+			width: 500px;
+			height: 500px;
+			border: 1px solid black;
+			z-index:0;
+		}
+	  </style>
+	</head>
+	<body>
+
+		<div id="score">
+			Score: 0
+		</div>
+
+		<div id="canvas"  > 
+			<!--this is where the game will appear! -->
+		</div>
+
+
+		<canvas id="box2dCanvas" width="500" height="500" hidden >
+			<!-- this is the box2d debug canvas -->
+		<canvas>
+
+		<script src='scripts/Box2dWeb-2.1.a.3.min.js'></script>
+		<script src='scripts/jquery-1.11.3.min.js'></script>
+		<script src='scripts/giftwrap-3.0-css.js'></script>
+
+
+		<!-- your script! -->
+		<script src='asteroids.js'></script>
+
+		<script src='scripts/game-loop.js'></script>
+
+	</body>
+</html>
