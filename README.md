@@ -40,4 +40,4 @@ one somewhere!
 
 If you really want to develop Box2D games, go and learn Box2D!!
 
-Currently this work is copyright, but I amy consider releasing it on an open source license in the future.
+Currently this work is copyright, but I may consider releasing it on an open source license in the future.
