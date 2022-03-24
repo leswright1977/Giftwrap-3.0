@@ -1,5 +1,5 @@
 /*
-giftwrap 3.0 Experimental CSS version......
+giftwrap 3.1 Experimental CSS version......
 
 Leslie Wright 01/11/2018
 
@@ -963,11 +963,10 @@ function superCollider(){
 				if (contact.GetFixtureA().GetBody().GetUserData()[collideBy] == objA && contact.GetFixtureB().GetBody().GetUserData()[collideBy] == objB){
 						//console.log('destroy '+objC);
 					
-					
+
 					if (user_function != null){
 						eval(user_function+'('+"returnData"+');');
 					};
-					
 				
 					if (objC != null){
 						if (objA == objC){
@@ -987,7 +986,6 @@ function superCollider(){
 					if (user_function != null){
 						eval(user_function+'('+"returnData"+');');
 					};
-					
 				
 					if (objC != null){
 						if (objA == objC){			
@@ -1058,7 +1056,6 @@ function superCollider(){
 	};
 
 	this.world.SetContactListener(listener);
-
 };//end superCollider();
 
 
@@ -1076,7 +1073,11 @@ function getSize(objectID){
 	return [x];
 };
 
-
+function getContact(objectID){
+	var x = window[objectID].m_contactList.contact.m_fixtureA.m_body.m_userData.group;
+	var y = window[objectID].m_contactList.contact.m_fixtureA.m_body.m_userData.id;
+	return [x,y];
+};
 
 
 rJoints = 0;
