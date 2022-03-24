@@ -1,5 +1,9 @@
 # Giftwrap-3.0
 
+24/02/2022
+Added in function getContact(objectID)
+This returns the items the Object is currently touching.
+
 What is it??
 Giftwrap is a thin wrapper or API for Box2D and CSS, to allow new programmers to produce a web
 game with minimal coding skills using JavaScript.
