@@ -8,7 +8,7 @@ What is it??
 Giftwrap is a thin wrapper or API for Box2D and CSS, to allow new programmers to produce a web
 game with minimal coding skills using JavaScript.
 
-Examples of games can be found in src/ simply opent the HTML files in Chrome for example: breakout.html is the game breakout, and the corresponding breakout.js contains the game login in JavaScript.
+Examples of games can be found in src/ simply open the HTML files in Chrome for example: breakout.html is the game breakout, and the corresponding breakout.js contains the game code in JavaScript.
 
 The Library itself is in src/scripts, along with dependencies (box2d and jquery)
 
